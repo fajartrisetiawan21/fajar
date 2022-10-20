@@ -1,0 +1,30 @@
+<html>
+    <head><title>Latihan Pembuatan From</title></head>
+    <body>
+        <!--Nama, Tgl Lahir, Alamat, Kota, pekerjaan, Jenis Kelamin, Hobby.-->
+        <form>
+            <h1>Free Registrasion</h1><hr>
+            <pre>
+                Nama           :<input type="text" size="11" name="nama">
+                Tgl Lahir      :<input type="date" size="11" nama="Tgl Lahir">
+                Alamat         :<textarea name="Alamat" rows="3" cols="30"></textarea>
+                Kota           :<input type="text" size="11" nama="Kota">
+                Pekerjaan      :<select nama="Pekerjaan" size="1">
+                    <option value="Tani">Tani</option>
+                    <option value="Dokter">Dokter</option>
+                    <option value="Polisi">Polisi</option>
+                    <option value="Guru">Guru</option>
+                    <option value="Dosen">Dosen</option>
+                </select>
+                Jenis Kelamin  :<input type="radio" nama="jkel" value="Pria">Pria<input type="radio" nama="jkel" value="Wanita">Wanita
+                Hobby          :<input type="checkbox" name="hobby" value="Reading">Reading 
+                                <input type="checkbox" name="hobby" value="Sport">Sport 
+                                <input type="checkbox" nama="hobby" value="Singing">Singing 
+                                <input type="checkbox" name="hobby" value="Traveling">Traveling 
+            </pre>
+            <br>
+            <input type="submit" value="Kirim">
+            <input type="submit" value="Cancel">
+        </form>
+    </body>
+</html>
